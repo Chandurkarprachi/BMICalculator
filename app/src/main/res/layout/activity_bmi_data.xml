@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/snackid"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/wall1"
+    android:orientation="vertical"
+
+    tools:context=".BmiData">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
+        android:gravity="center"
+        android:text="Personal Details"
+        android:textColor="@color/common_google_signin_btn_text_dark_focused"
+        android:textSize="40dp"
+        android:textStyle="italic"
+        app:fontFamily="@font/cherry_cream_soda" />
+
+    <TextView
+        android:id="@+id/tvHeight"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:gravity="center"
+        android:text="Height"
+        android:textColor="@android:color/black"
+        android:textSize="31dp"
+        app:fontFamily="cursive" />
+
+    <TextView
+        android:id="@+id/tvFeet"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:gravity="center"
+        android:text="Feet"
+        android:textColor="@android:color/black"
+        android:textSize="25dp"
+        app:fontFamily="cursive" />
+
+
+    <Spinner
+        android:id="@+id/spHeight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_gravity="center"
+        android:gravity="center" />
+
+    <TextView
+        android:id="@+id/tvInch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:gravity="center"
+        android:text="Inch"
+        android:textColor="@android:color/black"
+        android:textSize="25dp"
+        app:fontFamily="cursive" />
+
+    <Spinner
+        android:id="@+id/spInch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        android:gravity="center" />
+
+    <TextView
+        android:id="@+id/tvWeight"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:text="Weight"
+        android:textColor="@android:color/background_dark"
+        android:textSize="25dp"
+        app:fontFamily="cursive" />
+
+    <EditText
+        android:id="@+id/etWeight"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="Enter Weight"
+        android:inputType="number"
+        android:textColor="@android:color/background_dark" />
+
+    <Button
+        android:id="@+id/btnCalculate"
+        android:layout_width="185sp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="90sp"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/custom_button"
+        android:fontFamily="cursive"
+        android:gravity="center"
+        android:text="Calculate"
+        android:textAllCaps="false"
+        android:textColor="@color/common_google_signin_btn_text_dark_focused"
+        android:textSize="35dp" />
+
+    <Button
+        android:id="@+id/btnHistory"
+        android:layout_width="185sp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="90sp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/custom_button"
+
+
+        android:fontFamily="cursive"
+        android:gravity="center"
+        android:text="History"
+        android:textAllCaps="false"
+        android:textColor="@color/common_google_signin_btn_text_light_pressed"
+        android:textSize="35dp" />
+
+
+</LinearLayout>
